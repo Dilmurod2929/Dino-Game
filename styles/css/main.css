@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+span {
+  padding-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.game {
+  width: 600px;
+  height: 200px;
+  border: 2px solid black;
+  margin: 150px auto;
+}
+
+#dino {
+  width: 70px;
+  height: 70px;
+  background-image: url(../../images/Dino.png);
+  background-size: auto 70px;
+  position: relative;
+  top: 143px;
+}
+
+#cactus {
+  width: 30px;
+  height: 40px;
+  position: relative;
+  top: 90px;
+  left: 580px;
+  background-image: url(../../images/cactus.png);
+  background-size: 55px 40px;
+  -webkit-animation: cactus 1.2s infinite linear;
+          animation: cactus 1.2s infinite linear;
+}
+
+.jump {
+  -webkit-animation: jump 0.3s linear;
+          animation: jump 0.3s linear;
+}
+
+@-webkit-keyframes jump {
+  0% {
+    top: 143px;
+  }
+  30% {
+    top: 115px;
+  }
+  50% {
+    top: 70px;
+  }
+  80% {
+    top: 115px;
+  }
+  100% {
+    top: 143px;
+  }
+}
+
+@keyframes jump {
+  0% {
+    top: 143px;
+  }
+  30% {
+    top: 115px;
+  }
+  50% {
+    top: 70px;
+  }
+  80% {
+    top: 115px;
+  }
+  100% {
+    top: 143px;
+  }
+}
+@-webkit-keyframes cactus {
+  0% {
+    left: 600px;
+  }
+  100% {
+    left: -20px;
+  }
+}
+@keyframes cactus {
+  0% {
+    left: 600px;
+  }
+  100% {
+    left: -20px;
+  }
+}
+@media (max-width: 600px) {
+  .game {
+    width: 400px;
+  }
+}
+@media (max-width: 380px) {
+  .game {
+    width: 300px;
+  }
+}/*# sourceMappingURL=main.css.map */

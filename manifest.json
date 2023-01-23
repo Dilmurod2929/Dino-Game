@@ -1,0 +1,42 @@
+{
+  "name": "Dino Game PWA",
+  "short_name": "Dino PWA",
+  "description": "this is test app",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background-color": "#fff",
+  "theme_color": "#fff",
+  "orientitation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/images/icon/android-launchericon-72-72.png",
+      "type": "image/png",
+      "sizes": "72x72",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/images/icon/android-launchericon-96-96.png",
+      "type": "image/png",
+      "sizes": "96x96",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/images/icon/android-launchericon-144-144.png",
+      "type": "image/png",
+      "sizes": "144x144",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/images/icon/android-launchericon-192-192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/images/icon/android-launchericon-512-512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }
+  ]
+}
